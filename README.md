@@ -1,13 +1,17 @@
 # Bluestone Institute Style Guide
-Bluestone Institute has adopted a “default” style for the presenation of our research.  As intended, the default style allows Research Interns to more seamlessly flow from one project to the next.  It minimizes time wasted on formatting and other superficial tasks and returns focus (and budgets) to rigorous economic analysis.  Finally, consistenly formatted results are a trademark of quality and professionalism.  
+Bluestone Institute has adopted a “default” style for the presentation of our research.  The default style allows everyone to seamlessly flow from one project to the next.  It minimizes time spent re-formatting and other superficial tasks and returns focus (and budgets) to rigorous economic analysis.  Finally, consistently formatted results are a trademark of quality and professionalism.  
 
-Academic journals may have their own style to which we will need to adopt prior to publicatoin.  For this reason, some flexibility is needed to meet the needs of each research project.
+Academic journals may have their own style to which we will need to adopt prior to publication.  For this reason, some flexibility is needed to meet the needs of each research project.
 
 # Project Administration
 
 ## Time Entry
+Bluestone Institute does not currently have a time entry system.  However, Research Interns have committed some of their time each week to Bluestone Institute. We expect that commitment to be met. Tell your supervisor if you don’t have enough work to fulfill your commitment or if you have too much work in excess of your commitment.
 
 ## Folder Organization
+Each project will have its own project folder on Dropbox and GitHub.  Sub-folders within the project folder should be organized consistently so that files can be located easily, even after significant time has passed.  
+
+## Version Control
 
 ## Filenames
 
