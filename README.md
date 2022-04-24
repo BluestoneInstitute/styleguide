@@ -3,10 +3,11 @@
 
 #Table of Contents
 
-[Best Practices (General)](/best-practices-(general))
-[Best Practices (Coding)](/best-practices-(coding))
-[Style Guide](/style-guide)
+[Best Practices (General)](#best-practices-(general)) | 
+[Best Practices (Coding)](#best-practices-(coding))  | 
+[Style Guide](#style-guide)
 
+<a name="best-practices-(general)"></a>
 # Best Practices (General)
 
 ## Open Research
@@ -43,12 +44,45 @@ Examples:
 * Economic Impact of Covid - DRAFT - 2021_0716.docx
 * Economic Impact of Covid - 2021_0731.docx
 * Economic Impact of Covid - 2021_0731.pdf
-* Import Twitter Data - 2014_0101.sas
 
 It is paramount that pdf copies of all cited documents, papers, and websites be saved to the \Research\ folder in an appropriate sub-directory.  This is especially true for websites which can change regularly.  Check to ensure PDFs of websites contain the URL and date accessed. The best way to ensure this occurs is to insert a textbox at the bottom of the first page of the PDF.   This is necessary because the URL that often appears automatically at the bottom of the page is incomplete and cannot be used in a citation. Webpages that are saved as PDF to the \Research\ folder should have a descriptive filename similar to books and articles (i.e. author, publisher, title, and date).
 
+<a name="best-practices-(coding)"></a>
 # Best Practices (Coding)
+Generally, we follow the [tidyverse style guide](https://style.tidyverse.org/index.html) for our coding best practices.  That said, we have the following additions:
 
+* Comment your code, extensively!
+* If a code block is complicated to read or complicated to debug, it needs to be simplified.
+* Programs should typically not exceed 300 lines.  Break longer programs into multiple files.
+* Include a header and divide your code into sections. The program should have a logical, linear flow.
+
+```
+#=================================================================
+# Program   :  Raw_Data_Import_2022_0424.R
+# Date      :  April 24, 2022
+# Project   :  Twitter Paper
+# Author    :  Kevin W. Christensen
+#=================================================================
+
+#--------------------------------------------------------
+# 1.	Load Packages and Set Folders
+#--------------------------------------------------------
+#1.1 Load Package
+#install.packages("tidyverse")
+library(tidyverse)
+
+#1.2 Set Working Directory
+setwd('\Twitter_Paper\')
+
+#--------------------------------------------------------
+# 2.	Read in Data
+#--------------------------------------------------------
+
+
+### END PROGRAM  ###
+```
+
+<a name="style-guide"></a>
 # Style Guide
 Bluestone Institute has adopted a “default” style for our research.  The default style allows everyone to seamlessly flow from one project to the next.  It minimizes time spent re-formatting and other superficial tasks and returns focus (and budgets) to rigorous economic analysis.  Finally, consistently formatted results are a trademark of quality and professionalism.  
 
