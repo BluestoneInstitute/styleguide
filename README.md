@@ -1,11 +1,13 @@
 # Bluestone Institute Best Practices and Style Guide
 
 
-#Table of Contents
+# Table of Contents
 
+<center>
 [Best Practices (General)](#best-practices-(general)) | 
 [Best Practices (Coding)](#best-practices-(coding))  | 
 [Style Guide](#style-guide)
+</center>
 
 <a name="best-practices-(general)"></a>
 # Best Practices (General)
