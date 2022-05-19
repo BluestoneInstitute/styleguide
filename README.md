@@ -12,7 +12,7 @@
 
 ## Open Research
 
-Bluestone Institute takes a pragmatic view of Open Research, meaning that papers, code, and data should be shared, but there may also be reasonable exceptions. One such exception is ethical: when we collect large datasets on the behaviors and opinions of other people, with IRB approval, we may avoid openly posting data to protect privacy. Another exception reflects the cost of data collection: some datasets require huge up-front efforts to collect and clean, and will not be published immediately after the first study that analyzes them. Verify that data and code can be made public before doing so.
+Bluestone Institute takes a pragmatic view of open research, meaning that papers, code, and data should be shared, but there may also be reasonable exceptions. One such exception is the cost of data collection.  Some datasets require huge up-front efforts to collect and clean.  Moreover, some datasets are planned to be used in multiple distinct papers.  Typically we will hold back publishing the data until after the working papers have been posted.
 
 ## Tracking Your Time
 
@@ -54,14 +54,17 @@ Generally, we follow the [tidyverse style guide](https://style.tidyverse.org/ind
 * Comment your code, extensively!
 * If a code block is complicated to read or complicated to debug, it needs to be simplified.
 * Programs should typically not exceed 300 lines.  Break longer programs into multiple files.
-* Include a header and divide your code into sections. The program should have a logical, linear flow.
+* Include a header and divide your code into sections. 
+* The program should have a logical, linear flow.
+
+More context behind these principles can be found in the article ["Guidelines for writing good R code"](https://www.r-bloggers.com/2022/02/guidelines-for-writing-good-r-code/)
 
 ```
 #=================================================================
 # Program   :  Raw_Data_Import_2022_0424.R
 # Date      :  April 24, 2022
 # Project   :  Twitter Paper
-# Author    :  Kevin W. Christensen
+# Author    :  J. Schumpeter
 #=================================================================
 
 #--------------------------------------------------------
@@ -100,7 +103,7 @@ Academic journals may have their own style to which we will need to adopt prior 
 Page numbers should be inserted into the center of the footer.  If the document has a cover page, the page numbering should start on the first page of content as opposed to the cover.
 
 ## Dates
-* Dates should be written as “1980 to 1990” in the text. “1980–90” or “1980–1990” is okay for tables although it should be consistent.
+* Dates should be written as “1980 to 1990” in the body of a report. “1980–90” or “1980–1990” are okay for tables although it should be consistent.
 
 ## Exhibits
 * Tables and Figures will be referred to as Exhibits.
